@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+# Keep the dataset private until sharing permission is confirmed
+European_Bank.csv

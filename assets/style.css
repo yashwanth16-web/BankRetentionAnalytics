@@ -1,0 +1,114 @@
+
+/* Bank Retention Intelligence — shared premium theme */
+
+.stApp {
+    background: #0b1120;
+    color: #e5e7eb;
+}
+
+[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 1px solid #26354a;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1440px;
+}
+
+h1, h2, h3 {
+    color: #f8fafc;
+    letter-spacing: -0.025em;
+}
+
+
+[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #172338, #111a2a);
+    border: 1px solid #33445f;
+    border-radius: 16px;
+    padding: 18px 16px;
+    min-height: 108px;
+    min-width: 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #a9bad1;
+    font-size: 0.85rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+[data-testid="stMetricValue"] {
+    color: #f8fafc;
+    font-size: clamp(1.1rem, 1.7vw, 1.8rem);
+    white-space: nowrap;
+}
+
+
+[data-testid="stDataFrame"] {
+    border: 1px solid #26354a;
+    border-radius: 10px;
+}
+
+[data-testid="stDownloadButton"] button {
+    border: 1px solid #334155;
+    border-radius: 9px;
+}
+
+hr {
+    border-color: #26354a;
+}
+
+footer {
+    visibility: hidden;
+}
+
+/* Premium KPI cards */
+[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #172338, #111a2a);
+    border: 1px solid #33445f;
+    border-radius: 16px;
+    padding: 22px 20px;
+    min-height: 112px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #a9bad1;
+    font-size: 0.9rem;
+}
+
+[data-testid="stMetricValue"] {
+    color: #f8fafc;
+    font-size: clamp(1.4rem, 2vw, 2rem);
+    font-weight: 650;
+}
+
+
+/* Compact executive KPI cards */
+[data-testid="stMetric"] {
+    padding: 14px 10px;
+    min-height: 100px;
+    overflow: visible;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.78rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    white-space: nowrap;
+    overflow: visible;
+}
+
