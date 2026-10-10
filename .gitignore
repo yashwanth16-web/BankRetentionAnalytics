@@ -18,4 +18,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 # Keep the dataset private until sharing permission is confirmed
-European_Bank.csv

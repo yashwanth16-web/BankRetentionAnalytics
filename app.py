@@ -5,6 +5,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+
 from theme import apply_theme
 
 apply_theme()
@@ -47,7 +48,17 @@ st.markdown(
 )
 
 # ---------------- Load dataset ----------------
-DATA_PATH = Path(__file__).parent / "European_Bank.csv"
+
+import os
+from pathlib import Path
+
+DATA_PATH = Path(
+    os.getenv(
+        "BANK_DATA_PATH",
+        str(Path(__file__).parent / "European_Bank.csv")
+    )
+)
+
 
 @st.cache_data
 def load_data(path):
